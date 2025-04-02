@@ -156,15 +156,15 @@
                 window.EJS_player = "#game";
                 window.EJS_gameName = hardcodedGameUrl; 
                 window.EJS_biosUrl = "";
-                window.EJS_gameUrl = "data/roms/" + hardcodedCore + "/" + hardcodedGameUrl;
+                window.EJS_gameUrl = "/MKEmuJS/data/roms/" + hardcodedCore + "/" + hardcodedGameUrl;
                 window.EJS_core = hardcodedCore;
-                window.EJS_pathtodata = "data/";
+                window.EJS_pathtodata = "/MKEmuJS/data/";
                 window.EJS_startOnLoaded = true;
                 window.EJS_DEBUG_XX = enableDebug;
                 window.EJS_disableDatabases = true;
                 window.EJS_threads = enableThreads;
         
-                script.src = "data/loader.js"; 
+                script.src = "/MKEmuJS/data/loader.js"; 
                 document.body.appendChild(script);
             }
         
